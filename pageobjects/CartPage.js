@@ -10,7 +10,7 @@ constructor(page)
     this.orders = page.locator("button[routerlink*='myorders']");
     this.checkout = page.locator("text=Checkout");
 
-}
+}  
 
 async VerifyProductIsDisplayed(productName)
 {
